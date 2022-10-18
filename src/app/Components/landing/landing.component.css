@@ -1,0 +1,142 @@
+.landing-social {
+  margin-left: 65vw;
+  padding-top: 50px;
+  display: flex;
+}
+.actionBtn {
+  display: flex;
+}
+.actionBtn li {
+
+  margin-left: 10px;
+  color: #2a1b77;
+  font-size: 20px;
+  list-style: none;
+}
+.actionBtn h3 {
+  color: #c4b9ec;
+  font-weight: 500;
+  margin-top: -4px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 0.4s ease-in;
+}
+.actionBtn h3:hover {
+  margin-right: 20px;
+  color: #4c35bd;
+}
+.landing-social ul li {
+  color: #4c35bd;
+  list-style: none;
+  display: inline;
+  margin-inline: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s ease-in;
+}
+.landing-social ul li:hover {
+  background-color: #4c35bd;
+  padding: 12px;
+  border-radius: 50%;
+  color: #fff;
+}
+.landing-title {
+  text-align: center;
+  color: #c4b9ec;
+  margin-top: 55px;
+}
+
+.landing-title h3 {
+  font-family: "Averta", sans-serif;
+  font-weight: 600;
+  word-spacing: 2px;
+  font-size: 40px;
+  display: inline;
+}
+.landing-title h1 {
+  letter-spacing:3px;
+  margin-top: 6px;
+  font-family: "Courier New", Courier, monospace;
+}
+.landing-title span {
+  font-family: "Averta", sans-serif;
+  font-size: 4.9vw;
+  color: rgba(48, 23, 95, 0);
+  -webkit-text-stroke: 1.5px #4c35bd;
+}
+.callToAct button {
+  margin-inline: 10px;
+}
+.letsTalkBtn {
+  background-color: #4c35bd;
+  padding: 4px 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.resumebtn {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #4c35bd;
+  border: double;
+  color: #4c35bd;
+  padding: 9px 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: 0.4s ease-in;
+}
+.resumebtn:hover {
+  background-color: #4c35bd;
+  color: rgb(223, 217, 217);
+}
+.profile-img {
+  height: 420px;
+  background-image: linear-gradient(
+    to bottom,
+    #4c35bdce,
+    rgba(28, 201, 192, 0)
+  );
+  padding: 30px 90px 0px 90px;
+  border-radius: 50% 50% 0px 0px;
+  cursor: crosshair;
+  opacity: 0.85;
+}
+.para {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.para p {
+  width: 50vw;
+  font-size: 16px;
+  color: #c4b9ec;
+  font-family: "Courier New", Courier, monospace;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.email p {
+  background-color: #4c35bd;
+  font-size: 22px;
+  padding: 20px 100px;
+  font-family: "Courier New", Courier, monospace;
+  transition: ease-out 0.3s;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.email a{
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+}
+.email span {
+  margin-left: 40px;
+
+}
+.email p:hover {
+  background-color: #6044f0;
+}
+

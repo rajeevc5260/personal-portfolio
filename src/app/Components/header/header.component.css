@@ -1,0 +1,28 @@
+.nav-main {
+  position: fixed;
+  margin-top: 90vh;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.contents {
+  background-color: rgba(97, 74, 131, 0.199);
+  width: 285px;
+  padding-top: 15px;
+  border-radius: 8px;
+  backdrop-filter: blur(5px)
+}
+.contents ul li {
+  color: rgba(190, 190, 190, 0.822);
+  list-style: none;
+  display: inline;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: .5s ease;
+}
+.contents ul li:hover{
+    background-color:#4c35bd;
+    border-radius: 50%;
+}

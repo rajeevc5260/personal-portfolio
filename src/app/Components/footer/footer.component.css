@@ -1,0 +1,40 @@
+.footer {
+  text-align: center;
+  height: 40vh;
+  display: block;
+  background-color: #3a0869;
+}
+.footer h1 {
+  font-weight: 800;
+  color: #fff;
+  padding-top: 30px;
+}
+.social {
+  display: block;
+  margin-top: 10rem;
+}
+.social ul {
+  list-style: none;
+  margin-right: 30px;
+  margin-top: 35px;
+}
+.social ul li a {
+  color: white;
+  background-color: #4c35bd;
+  padding: 13px;
+  border-radius: 50%;
+  margin: 10px;
+  transition: ease-in-out .4s;
+}
+.social ul li {
+  font-size: 25px;
+  display: inline;
+}
+.social ul li a:hover {
+  background-color: #ecebf0;
+  color: #4c35bd ;
+}
+p{
+    margin-top: 3rem;
+    color: #fff;
+}

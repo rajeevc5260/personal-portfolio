@@ -1,0 +1,31 @@
+<div class="testimony">
+  <div class="testimony-title">
+    <h1>Projects</h1>
+    <h1>&</h1>
+    <h1>Case Studies</h1>
+  </div>
+  <div class="content row row-cols-1 row-cols-md-2 g-4">
+    <div class="col" *ngFor="let project of projectDetails">
+      <div class="card front">
+        <div class="blue"></div>
+        <div class="darkBlue"></div>
+        <div class="violet"></div>
+        <div class="dots"></div>
+        <div class="personal-intro">
+          <img src="{{ project.image }}" alt="" />
+          <div class="head">
+            <h6>
+              {{ project.numbers
+              }}<span><i class="fa-solid fa-arrow-right"></i></span>
+              {{ project.title }}
+            </h6>
+            <div class="para">
+              <p>{{ project.desc }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1>view more <span><i class="fa-solid fa-arrow-right"></i></span></h1>
+    </div>
+  </div>
+</div>

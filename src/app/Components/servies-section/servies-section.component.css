@@ -1,0 +1,58 @@
+.services-main {
+  text-align: center;
+  color: #cecae3;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.services-title h1 {
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 120px;
+  font-weight: 600;
+  color: #ffffff00;
+  -webkit-text-stroke: 1px #cecae3;
+}
+.content {
+  margin-top: 5rem;
+  width: 65vw;
+  background-color: #4c35bd;
+  padding: 90px 150px;
+}
+.content h1 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.actionBtn {
+  display: flex;
+  list-style: none;
+  float: right;
+  margin-top: 50px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.actionBtn h3 {
+  font-size: 35px;
+}
+.actionBtn li {
+  font-size: 30px;
+  margin-left: 15px;
+}
+.actionBtn:hover {
+  color: rgba(59, 27, 117, 0.76);
+}
+.emailMe {
+  margin-top: 70px;
+}
+.emailMe span a {
+  cursor: pointer;
+  font-weight: 600;
+  color: #0f0c2c;
+  text-decoration: underline;
+}
+.emailMe span a:hover {
+  color: #1c1649;
+}
