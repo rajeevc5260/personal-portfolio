@@ -4,8 +4,10 @@
     <h1>&</h1>
     <h1>Case Studies</h1>
   </div>
+
   <div class="content row row-cols-1 row-cols-md-2 g-4">
     <div class="col" *ngFor="let project of projectDetails">
+      <a href="{{project.path}}">
       <div class="card front">
         <div class="blue"></div>
         <div class="darkBlue"></div>
@@ -26,6 +28,8 @@
         </div>
       </div>
       <h1>view more <span><i class="fa-solid fa-arrow-right"></i></span></h1>
+    </a>
     </div>
   </div>
+  
 </div>

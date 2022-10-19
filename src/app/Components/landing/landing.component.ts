@@ -23,4 +23,5 @@ export class LandingComponent implements OnInit {
   downloadPdf(pdfUrl: string, pdfName: string) {
     FileSaver.saveAs(pdfUrl, pdfName);
   }
+
 }
