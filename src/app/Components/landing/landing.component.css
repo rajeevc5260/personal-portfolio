@@ -7,7 +7,6 @@
   display: flex;
 }
 .actionBtn li {
-
   margin-left: 10px;
   color: #2a1b77;
   font-size: 20px;
@@ -25,17 +24,16 @@
   margin-right: 20px;
   color: #4c35bd;
 }
-.landing-social ul li{
+.landing-social ul li {
   list-style: none;
   display: inline;
   margin-inline: 15px;
   font-size: 20px;
   cursor: pointer;
 }
-.landing-social a{
+.landing-social a {
   color: #4c35bd;
-transition: 0.4s ease-in;
-
+  transition: 0.4s ease-in;
 }
 .landing-social ul li a:hover {
   background-color: #4c35bd;
@@ -57,7 +55,7 @@ transition: 0.4s ease-in;
   display: inline;
 }
 .landing-title h1 {
-  letter-spacing:3px;
+  letter-spacing: 3px;
   margin-top: 6px;
   font-family: "Courier New", Courier, monospace;
 }
@@ -130,17 +128,50 @@ transition: 0.4s ease-in;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-
 }
-.email a{
+.email a {
   text-decoration: none;
   color: rgb(20, 20, 20);
 }
 .email span {
   margin-left: 40px;
-
 }
 .email p:hover {
   background-color: #6044f0;
 }
 
+/* mobile */
+@media (max-width: 750px) {
+  .landing-social {
+    display: none;
+  }
+  .landing-title h3 {
+    font-weight: 100;
+    word-spacing: 0px;
+    font-size: 25px;
+  }
+  .landing-title h1 {
+    letter-spacing: 2px;
+    margin-top: 6px;
+    font-size: 20px;
+  }
+  .landing-title span {
+    font-size: 10.9vw;
+  }
+  .resumebtn {
+    padding: 9px 30px;
+  }
+  .profile-img {
+    height: 320px;
+  }
+  .para p {
+    width: 80vw;
+    font-size: 16px;
+  }
+  .email p {
+    padding: 20px 20px;
+  }
+  .email span {
+    margin-left: 10px;
+  }
+}
