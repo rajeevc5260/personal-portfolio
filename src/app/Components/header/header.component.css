@@ -1,0 +1,30 @@
+
+    .nav-link {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .nav-link::before {
+        transition: 300ms;
+        height: 3px;
+        content: "";
+        position: absolute;
+        background-color: #6e40c9;
+    }
+    
+    .nav-link-ltr::before {
+        width: 0%;
+        bottom: 0px;
+    }
+    
+    .nav-link-ltr:hover::before {
+        width: 100%;
+    }
+    .letsTalkBtn button{ 
+        padding: 8px 20px;
+    }
+    .contactUS:hover{
+        background-color: #6e40c9;
+        text-align: #fff;
+        color: #fff;
+    }

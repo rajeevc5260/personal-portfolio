@@ -1,0 +1,73 @@
+.servicesCard{
+    transition: ease-in-out 300ms;
+}
+.servicesCard:hover{
+    background-color: #6e40c9;
+    color: white;
+    border-color: #6e40c9;
+    cursor: pointer;
+}
+.toolsUsed{
+    transition: ease-in-out 300ms;
+}
+.toolsUsed:hover{
+    background-color: #6e40c9;
+    color: #FFF;
+    border: none;
+}
+.newsletter input{
+    padding: 25px;
+}
+.newsletter input::placeholder{
+    font-weight: 700;
+}
+
+
+/* Tab */
+@media(max-width:768px){
+    .CTA{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .certificate{
+        padding:20px ;
+
+    }
+    .Outcomes2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: left;
+        
+    }
+
+   .outcomeHead{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        /* width: 300px !important; */
+        gap: 20px;
+    }
+    
+}
+
+
+/* Mobile */
+@media(max-width:500px){
+
+    .Outcomes2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: left;
+        
+    }
+
+   .outcomeHead{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 300px !important;
+        gap: 20px;
+    }
+    
+}
