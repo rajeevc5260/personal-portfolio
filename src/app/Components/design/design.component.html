@@ -1,1 +1,27 @@
-<p>design works!</p>
+
+
+<div id="" class="flex flex-col items-center mt-[60px]">
+    <i class="fa-solid fa-star-of-life mt-[5px] text-[#6e40c9] text-[40px] mb-[10px]"></i>
+    <div class="flex flex-col justify-center items-center lg:!w-[900px] md:!w-[680px] w-[300px]">
+        <h1 class="lg:!text-[56px] md:!text-[48px] text-[36px] text-center font-bold lg:!leading-[60px] md:!leading-[50px] leading-[45px]">Unveiling UI/UX Designs That Shape Digital Realms</h1>
+        <p class="text-[16px] text-center font-semibold lg:!w-[600px] mt-[15px] ">Embark on a Journey of Seamless User Interaction, Where Exquisite UI/UX Design Meets Innovative Technology.</p>
+    </div>
+</div>    
+<div class="flex flex-col justify-center items-center mt-[50px] mb-[100px]">
+    <img class="lg:!w-[60%] w-[85%] max-w-[1000px] rounded" src="../../../assets/images/uiuxdesign banner.webp" alt="" loading="lazy">
+    <div class="flex gap-[25px] flex-wrap justify-center items-center max-w-[1520px] my-[40px] mt-[80px]">
+        <div *ngFor="let design of designs" class="max-w-[420px] lg:!mx-[0px] mx-[30px] projectCard flex flex-col px-[20px] py-[20px] rounded">
+            <img class="rounded" src="{{design.image}}" alt="" loading="lazy">
+            <div class="flex justify-between mt-[8px]">
+                <div>
+                    <h3 class="lg:!text-[24px] md:!text-[22px] text-[20px] font-bold">{{design.title}}</h3>
+                    <p class="w-[80%] lg:!text-[14px] md:!text-[14px] text-[12px] font-semibold text-[#7D7C7C]">{{design.description}}</p>
+                </div>
+                <!-- <a href="{{design.links}}" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square text-[#6e40c9] mt-[10px]"></i></a> -->
+            </div>
+            <div class="flex flex-wrap gap-[5px] mt-[10px]">
+                <!-- <p class="px-[18px] py-[6px] bg-[#6e40c9] rounded-full text-white lg:!text-[12px] md:!text-[12px] text-[10px]" *ngFor="let tools of design.toolsUsed">{{tools}}</p> -->
+            </div>
+        </div>
+    </div>
+</div>

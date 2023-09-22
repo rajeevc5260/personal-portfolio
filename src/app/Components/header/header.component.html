@@ -1,5 +1,5 @@
-<nav class="flex justify-between items-center mx-[60px] pt-[30px]">
-    <div class="">
+<nav class="flex justify-between items-center lg:!px-[60px] pt-[30px]">
+    <div class="lg:!pl-[0px] pl-[20px]">
         <h1 class="lg:!text-[32px] text-[30px] font-extrabold">RC.</h1>
     </div>
     <div class="lg:!flex hidden">
@@ -7,25 +7,30 @@
             <li class="nav-link nav-link-ltr"><a routerLink="">Home</a></li>
             <li class="nav-link nav-link-ltr"><a href="#intro">Intro</a></li>
             <li class="nav-link nav-link-ltr"><a href="#outcomes">Outcomes</a></li>
-            <li class="nav-link nav-link-ltr"><a href="">Contact</a></li>
+            <li class="nav-link nav-link-ltr"><a href="/development" >Projects</a></li>
         </ul>
     </div>
-    <div class="letsTalkBtn lg:!flex ">
-        <button class="border-2 border-[#6e40c9] ease-in duration-300 contactUS font-semibold">Let's talk</button>
+    <div class="letsTalkBtn lg:!flex hidden">
+        <a href="https://calendly.com/rajeev-c/lets-talk" target="_blank" class="border-2 border-[#6e40c9] ease-in duration-300 contactUS font-semibold">Let's talk</a>
     </div>
-    <!-- <div class="navMob lg:!hidden grid">
+    <!-- <div ><i class='bx bx-x'></i></div> -->
+    <div class="menuBtn lg:hidden text-[32px] lg:pr-[0px] pr-[20px]" (click)="toggleMenu()">
+        <i [ngClass]="menuIcon"></i>
+      </div>
+      <div class="mobMenu absolute bg-[#fff] lg:hidden mt-[280px] w-[100%] py-[20px] grid px-[20px]" [ngClass]="{'hidden': isMenuHidden}">
         <div class="grid">
-            <ul class="grid gap-[15px] navLinks lg:!gap-[35px]">
-                <li class="nav-link nav-link-ltr"><a href="">Home</a></li>
-                <li class="nav-link nav-link-ltr"><a href="">Intro</a></li>
-                <li class="nav-link nav-link-ltr"><a href="">Outcomes</a></li>
-                <li class="nav-link nav-link-ltr"><a href="">Contact</a></li>
-            </ul>
+          <ul class="grid gap-[15px] navLinks lg:gap-[35px]">
+            <li class="nav-link nav-link-ltr"><a routerLink="">Home</a></li>
+            <li class="nav-link nav-link-ltr"><a href="#intro">Intro</a></li>
+            <li class="nav-link nav-link-ltr"><a href="#outcomes">Outcomes</a></li>
+            <li class="nav-link nav-link-ltr"><a href="/development" >Projects</a></li>
+          </ul>
         </div>
-        <div class="letsTalkBtn lg:!hidden block">
-            <button class="border-2 border-[#6e40c9] ease-in duration-300 contactUS font-semibold">Let's talk</button>
+        <div class="letsTalkBtn lg:hidden block pt-[15px]">
+          <a href="https://calendly.com/rajeev-c/lets-talk" target="_blank" class="border-2 border-[#6e40c9] ease-in duration-300 contactUS font-semibold">Let's talk</a>
         </div>
-    </div> -->
+      </div>
+      
 </nav>
 
 

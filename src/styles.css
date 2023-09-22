@@ -9,3 +9,11 @@
 body{
     font-family: 'Bai Jamjuree', sans-serif;
 }
+
+.grayscaleImage{
+    filter: grayscale(1); 
+    transition: ease-in-out 300ms;
+}
+.grayscaleImage:hover{
+    filter: grayscale(0); 
+}

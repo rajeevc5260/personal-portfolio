@@ -1,8 +1,27 @@
 
-<div class="flex flex-col items-center mt-[50px]">
-    <!-- <i class="fa-solid fa-star-of-life mt-[5px] text-[#6e40c9] text-[40px] mb-[10px]"></i> -->
+<div id="" class="flex flex-col items-center mt-[60px]">
+    <i class="fa-solid fa-star-of-life mt-[5px] text-[#6e40c9] text-[40px] mb-[10px]"></i>
     <div class="flex flex-col justify-center items-center lg:!w-[900px] md:!w-[680px] w-[300px]">
         <h1 class="lg:!text-[56px] md:!text-[48px] text-[36px] text-center font-bold lg:!leading-[60px] md:!leading-[50px] leading-[45px]">Unifying Approaches With Extreme Programming Practices</h1>
         <p class="text-[16px] text-center font-semibold lg:!w-[600px] mt-[15px] ">Experience the perfect blend of captivating design and innovative technology with our visually stunning and technologically advanced website.</p>
     </div>
 </div>    
+<div class="flex flex-col justify-center items-center mt-[50px] mb-[100px]">
+    <img class="lg:!w-[60%] w-[85%] max-w-[1000px] rounded" src="../../../assets/images/DevelopmentBanner.webp" alt="" loading="lazy">
+    <div class="flex gap-[25px] flex-wrap justify-center items-center max-w-[1520px] my-[40px] mt-[80px]">
+        <div *ngFor="let project of projects" class="max-w-[420px] lg:!mx-[0px] mx-[30px] projectCard flex flex-col px-[20px] py-[20px] rounded">
+            <!-- <img class="rounded" src="../../../assets/images/Projects/Screenshot (17).png" alt="" loading="lazy"> -->
+            <div class="flex justify-between mt-[8px]">
+                <div>
+                    <h3 class="lg:!text-[24px] md:!text-[22px] text-[20px] font-bold">{{project.title}}</h3>
+                    <p class="w-[80%] lg:!text-[14px] md:!text-[14px] text-[12px] font-semibold text-[#7D7C7C]">{{project.description}}</p>
+                </div>
+                <a href="{{project.links}}" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square text-[#6e40c9] mt-[10px]"></i></a>
+            </div>
+            <div class="flex flex-wrap gap-[5px] mt-[10px]">
+                <p class="px-[18px] py-[6px] bg-[#6e40c9] rounded-full text-white lg:!text-[12px] md:!text-[12px] text-[10px]" *ngFor="let tools of project.toolsUsed">{{tools}}</p>
+            </div>
+        </div>
+    </div>
+    <a href="https://github.com/rajeevc5260?tab=repositories" target="_blank" class="border-2 border-[#6e40c9] text-black hover:bg-[#6e40c9] hover:text-white px-[30px] py-[12px] font-semibold">View more</a>
+</div>

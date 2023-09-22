@@ -20,7 +20,7 @@
     .nav-link-ltr:hover::before {
         width: 100%;
     }
-    .letsTalkBtn button{ 
+    .letsTalkBtn a{ 
         padding: 8px 20px;
     }
     .contactUS:hover{
@@ -28,3 +28,5 @@
         text-align: #fff;
         color: #fff;
     }
+
+        
